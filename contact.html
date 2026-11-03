@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact &amp; Hours | coffee.piyo</title>
+  <meta name="description" content="Find coffee.piyo in DHA Phase 6, Karachi. Opening hours, phone number and a contact form.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="logo">coffee<span>.piyo</span></a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">Our Story</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+      <a href="menu.html" class="btn btn-small">Order Now</a>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow eyebrow-light">Contact</p>
+        <h1>Come by, or drop us a line.</h1>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-grid">
+
+        <div class="contact-info">
+          <img src="images/storefront.png" alt="coffee.piyo storefront with wooden sign and plants outside">
+
+          <h2>Find us</h2>
+          <p>Shop 4, Khayaban-e-Ittehad<br>DHA Phase 6, Karachi, Pakistan</p>
+
+          <h3>Opening hours</h3>
+          <ul class="hours">
+            <li><span>Monday &ndash; Thursday</span><span>8:00 AM &ndash; 11:30 PM</span></li>
+            <li><span>Friday</span><span>8:00 AM &ndash; 12:00 AM</span></li>
+            <li><span>Saturday &ndash; Sunday</span><span>9:00 AM &ndash; 12:00 AM</span></li>
+          </ul>
+
+          <h3>Get in touch</h3>
+          <p>
+            Phone: <a href="tel:+923001234567">+92 300 1234567</a><br>
+            Email: <a href="mailto:hello@coffee.piyo">hello@coffee.piyo</a>
+          </p>
+        </div>
+
+        <div class="contact-form">
+          <h2>Send us a message</h2>
+          <p>For bookings, bulk bean orders or feedback. We usually reply within a day.</p>
+
+          <form action="mailto:hello@coffee.piyo" method="post" enctype="text/plain">
+            <label for="name">Your name</label>
+            <input type="text" id="name" name="name" placeholder="Full name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+            <label for="topic">What is this about?</label>
+            <select id="topic" name="topic">
+              <option>General question</option>
+              <option>Table or event booking</option>
+              <option>Beans / wholesale</option>
+              <option>Feedback</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="How can we help?" required></textarea>
+
+            <div class="btn-row">
+              <button type="submit" class="btn">Send Message</button>
+              <button type="reset" class="btn btn-outline-dark">Clear</button>
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a href="index.html" class="logo logo-light">coffee<span>.piyo</span></a>
+        <p>Coffee &amp; conversation. Est. 2024.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="menu.html">Menu</a>
+        <a href="about.html">Our Story</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div>
+        <h4>Visit</h4>
+        <p>Shop 4, Khayaban-e-Ittehad<br>DHA Phase 6, Karachi</p>
+        <p>Daily, 8:00 AM &ndash; 11:30 PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">&copy; 2026 coffee.piyo. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
